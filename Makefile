@@ -6,8 +6,8 @@
 #
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=php8-nginx
-PKG_VERSION:=20230424
+PKG_NAME:=php-nginx
+PKG_VERSION:=20230426
 #PKG_RELEASE:=
 
 PKG_MAINTAINER:=muink <hukk1996@gmail.com>
@@ -21,8 +21,7 @@ define Package/$(PKG_NAME)
 	CATEGORY:=Network
 	TITLE:=PHP with Nginx as Webserver
 	URL:=https://github.com/muink/openwrt-php-nginx
-	DEPENDS:=+luci-nginx +luci-ssl-nginx \
-		+php8 +php8-cgi +php8-fastcgi +php8-fpm
+	DEPENDS:=+luci-nginx +luci-ssl-nginx
 	PKGARCH:=all
 endef
 

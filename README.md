@@ -18,10 +18,10 @@ pushd package/php-nginx
 umask 022
 git checkout
 popd
-# Select the package Network -> php8-nginx
+# Select the package Network -> php-nginx
 make menuconfig
 # Start compiling
-make package/php8-nginx/compile V=99
+make package/php-nginx/compile V=99
 ```
 
 ## License

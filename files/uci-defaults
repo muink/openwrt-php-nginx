@@ -1,2 +1,2 @@
 #!/bin/sh
-/etc/init.d/nginx reload
+[ -n $(command -v nginx) ] && /etc/init.d/nginx reload
