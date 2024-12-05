@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 muink
+# Copyright (C) 2023-2024 muink
 #
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
@@ -7,8 +7,8 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=php-nginx
-PKG_VERSION:=20230426
-#PKG_RELEASE:=
+PKG_VERSION:=0.2023.04.26
+PKG_RELEASE:=1
 
 PKG_MAINTAINER:=muink <hukk1996@gmail.com>
 PKG_LICENSE:=MIT
