@@ -2,7 +2,7 @@ openwrt-php-nginx
 =================
 
 ## Releases
-You can find the prebuilt-ipks [here](https://fantastic-packages.github.io/packages/)
+You can find the prebuilt-ipks [here](https://fantastic-packages.github.io/releases/)
 
 ## Build
 
